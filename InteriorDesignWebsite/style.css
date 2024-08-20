@@ -62,8 +62,8 @@ nav ul li{
     display:inline-block;
     list-style:none;
     margin: 10px 10px;
-    padding-right: 10%;
-    font-size: 25px;
+    padding-right: 5%;
+    font-size: 20px;
    
 }
 nav ul li a{
@@ -179,14 +179,14 @@ html,body{
 #About h2{
     text-align:center;
     font-family:  "Montserrat", sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     color:rgb(238, 195, 195);
     padding-top:1%
 }
 #About .about-section p{
     text-align: left;
     font-family:  "Montserrat", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color:rgb(243, 240, 240);
     padding-left: 5%;
     padding-top:3%;
@@ -207,17 +207,18 @@ html,body{
 }
 #About .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding:20px;
+    padding:10px;
     border-radius:10px;
  
 
 }
 #About .card img {
-    width: 100%; /* Ensures image fits within the card */
+    width: 30%; /* Ensures image fits within the card */
     border-radius: 10px; /* Consistent rounding */
 }
 #About .container{
-    padding: 50px;
+    padding: 20px;
+    padding-top:10%;
     display: flex;
     justify-content: flex-end;
     float: right;

@@ -1,0 +1,10 @@
+<!ELEMENT WeDesign (Project+)>
+<!ELEMENT Project (ProjectName, ClientName, Budget, Location, Designer, Style, Description, Duration)>
+<!ELEMENT ProjectName (#PCDATA)>
+<!ELEMENT ClientName (#PCDATA)>
+<!ELEMENT Budget (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT Designer (#PCDATA)>
+<!ELEMENT Style (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Duration (#PCDATA)>
