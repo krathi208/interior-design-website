@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WeDesign SYSTEM "WeDesign.dtd">
+<WeDesign>
+    <Project>
+        <ProjectName>Modern Living Room</ProjectName>
+        <ClientName>Kumkum Rathi</ClientName>
+        <Budget>100000</Budget>
+        <Location>Jorhat, Assam</Location>
+        <Designer>WeDesign Team</Designer>
+        <Style>Contemporary</Style>
+        <Description>Elegant living room design with a modern touch, using a monochrome palette.</Description>
+        <Duration>30</Duration>
+    </Project>
+</WeDesign>

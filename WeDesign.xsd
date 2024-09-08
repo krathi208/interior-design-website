@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define root element -->
+    <xs:element name="WeDesign">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Project" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ProjectName" type="xs:string"/>
+                            <xs:element name="ClientName" type="xs:string"/>
+                            <xs:element name="Budget">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="50000"/>
+                                        <xs:maxInclusive value="1000000"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="Location" type="xs:string"/>
+                            <xs:element name="Designer" type="xs:string"/>
+                            <xs:element name="Style" type="xs:string"/>
+                            <xs:element name="Description" type="xs:string"/>
+                            <xs:element name="Duration">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="7"/>
+                                        <xs:maxInclusive value="365"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
