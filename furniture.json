@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "Modern Living Room",
+      "style": "Modern",
+      "price": "$1,500",
+      "description": "A sleek, modern living room design with minimalist furniture and neutral tones.",
+      "image": "images/modern-living-room.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Scandinavian Kitchen",
+      "style": "Scandinavian",
+      "price": "$3,000",
+      "description": "A Scandinavian-style kitchen featuring natural wood finishes and open shelving.",
+      "image": "images/scandinavian-kitchen.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rustic Dining Room",
+      "style": "Rustic",
+      "price": "$2,700",
+      "description": "A cozy dining room with a rustic table, reclaimed wood beams, and warm lighting.",
+      "image": "images/rustic-dining-room.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Classic Bedroom",
+      "style": "Classic",
+      "price": "$2,200",
+      "description": "A classic bedroom design with elegant furniture and a neutral color palette.",
+      "image": "images/classic-bedroom.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Industrial Loft",
+      "style": "Industrial",
+      "price": "$4,500",
+      "description": "An industrial-style loft with exposed brick walls, metal accents, and open spaces.",
+      "image": "images/industrial-loft.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mid-Century Modern Office",
+      "style": "Mid-Century Modern",
+      "price": "$3,500",
+      "description": "A functional yet stylish office space with mid-century modern furniture and bold colors.",
+      "image": "images/mid-century-office.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Bohemian Patio",
+      "style": "Bohemian",
+      "price": "$1,800",
+      "description": "A colorful and eclectic patio space with patterned cushions, hanging plants, and rugs.",
+      "image": "images/bohemian-patio.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Minimalist Bathroom",
+      "style": "Minimalist",
+      "price": "$1,200",
+      "description": "A clean and serene minimalist bathroom with white tiles, sleek fixtures, and ample natural light.",
+      "image": "images/minimalist-bathroom.jpg"
+    }
+  ]
+  
